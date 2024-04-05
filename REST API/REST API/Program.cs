@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using REST_API.Database;
 using REST_API.EndPoints;
 using REST_API.Models;
 
@@ -9,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+builder.Services.AddSingleton<MockDb>();
 
 var app = builder.Build();
 
