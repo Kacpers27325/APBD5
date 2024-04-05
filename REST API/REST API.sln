@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{5681EB23-C47C-4F3A-966C-FEB8AF8CC3B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST API", "REST API\REST API.csproj", "{6C627D41-FC16-4650-AABD-B0741D5E39C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5681EB23-C47C-4F3A-966C-FEB8AF8CC3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5681EB23-C47C-4F3A-966C-FEB8AF8CC3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5681EB23-C47C-4F3A-966C-FEB8AF8CC3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5681EB23-C47C-4F3A-966C-FEB8AF8CC3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C627D41-FC16-4650-AABD-B0741D5E39C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C627D41-FC16-4650-AABD-B0741D5E39C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C627D41-FC16-4650-AABD-B0741D5E39C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C627D41-FC16-4650-AABD-B0741D5E39C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
