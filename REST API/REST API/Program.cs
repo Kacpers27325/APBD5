@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Mvc;
+using REST_API.EndPoints;
 using REST_API.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -16,7 +19,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.MapPost("/animals", (Animal animal, int id) =>
-{
-});
+app.MapAnimalsEndPoints();
+
+app.MapControllers();
+app.Run();
 
